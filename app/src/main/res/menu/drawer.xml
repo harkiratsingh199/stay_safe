@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+<group android:checkableBehavior="single">
+
+    <item
+        android:id="@+id/dotnet"
+        android:checked="false"
+        android:icon="@drawable/ic_home_black"
+        android:title="Home" />
+
+
+    <item
+        android:id="@+id/android"
+        android:checked="false"
+        android:icon="@drawable/icon_contacts"
+        android:title="Contacts" />
+
+    <item
+        android:id="@+id/contacts"
+        android:checked="false"
+        android:icon="@drawable/icon_marker"
+        android:title="View Locations" />
+
+    <item
+        android:id="@+id/php"
+        android:checked="false"
+        android:icon="@drawable/icon_marker"
+        android:title="About Us" />
+
+
+    <!--<item-->
+    <!--android:id="@+id/corejava"-->
+    <!--android:checked="false"-->
+    <!--android:icon="@drawable/ic_email_black"-->
+    <!--&lt;!&ndash;android:title="Core Java" />-->
+
+</group>
+</menu>

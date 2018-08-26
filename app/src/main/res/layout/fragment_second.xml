@@ -1,0 +1,113 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginRight="1dp"
+        android:layout_marginLeft="1dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="1dp"
+        android:layout_marginBottom="50dp">
+        <!--<com.synnapps.carouselview.CarouselView-->
+            <!--android:id="@+id/carouselView"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="150dp"-->
+            <!--app:fillColor="#FFFFFFFF"-->
+            <!--app:pageColor="#00000000"-->
+            <!--app:radius="6dp"-->
+            <!--app:slideInterval="3000"-->
+            <!--app:strokeColor="#FF777777"-->
+            <!--app:strokeWidth="1dp"/>-->
+        <TextView
+            android:id="@+id/wel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="WELCOME"
+            android:textSize="20sp"
+            android:textAlignment="center"
+            android:background="#00000000"
+            android:padding="2dp"
+            android:layout_marginLeft="20dp"/>
+
+
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginTop="2dp"
+        >
+        <TextView
+            android:id="@+id/fname"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="5dp"
+            android:textSize="18sp"
+            android:singleLine="true"
+            android:layout_marginRight="5dp"
+            />
+
+
+    </LinearLayout>
+        <TextView
+            android:id="@+id/emaill"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="5dp"
+            android:textSize="14dp"
+            android:singleLine="true"/>
+        <TextView
+            android:id="@+id/numberr"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="5dp"
+            android:textSize="14dp"
+            android:singleLine="true"/>
+
+    </LinearLayout>
+    <Button
+        android:id="@+id/btrack"
+        android:layout_above="@+id/dev"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/round_button"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginRight="70dp"
+        android:textAlignment="center"
+        android:padding="14dp"
+        android:text="Track Me"
+        android:textSize="16sp"
+        android:textColor="#fff"
+        />
+
+    <!--<TextView-->
+        <!--android:id="@+id/al"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="'Stay Safe','Stay Alert'"-->
+        <!--android:layout_above="@+id/dev"-->
+        <!--android:padding="1dp"-->
+        <!--android:gravity="center"-->
+
+        <!--/>-->
+    <TextView
+        android:id="@+id/dev"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="'Stay Safe','Stay Alert'"
+        android:layout_alignParentBottom="true"
+        android:padding="3dp"
+        android:gravity="center"
+
+        />
+</RelativeLayout>

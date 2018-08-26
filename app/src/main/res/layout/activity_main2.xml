@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:orientation="vertical"
+    android:background="@drawable/img_welcome_page"
+    tools:context="com.example.pchp.withyou.Main2Activity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add a Account"
+        android:textSize="25sp"
+        android:textColor="#000000"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:background="#000000" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Do you want to add an existing account or create a new one?"
+        android:textColor="#000000"/>
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="360dp" />
+
+    <Button
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:text="New"
+    android:onClick="go1"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Existing"
+        android:onClick="go2"/>
+
+
+
+</LinearLayout>

@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.pchp.stay_safe.login">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorblack"
+        android:padding="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:gravity="center_vertical|center_horizontal"
+
+            android:paddingBottom="10dp"
+            android:paddingLeft="20dp"
+            android:paddingTop="20dp"
+            android:text="Sign In  "
+            android:textColor="#f29d09"
+            android:textSize="35sp"
+            android:textStyle="bold"
+            android:typeface="serif" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:orientation="vertical"
+            android:layout_marginRight="30dp"
+            android:layout_marginLeft="30dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <!--<FrameLayout-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="match_parent"-->
+                    <!--android:background="#555c5b"-->
+                    <!--&gt;-->
+                    <!--<ImageView-->
+                        <!--android:layout_width="wrap_content"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:src="@drawable/layer2"-->
+                        <!--android:padding="16dp"/>-->
+                <!--</FrameLayout>-->
+
+                <EditText
+                    android:id="@+id/etEmail"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#626562"
+                    android:padding="16dp"
+                    android:hint="Email Address"
+                    android:textColorHint="#ffffff"
+                    android:textSize="14dp"
+                    android:inputType="textEmailAddress"
+                    android:textColor="#ffffff"
+                    android:singleLine="true"
+                    />
+
+            </LinearLayout>
+        </LinearLayout>
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="18dp"
+
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:orientation="vertical"
+            android:layout_marginRight="30dp"
+            android:layout_marginLeft="30dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <!--<FrameLayout-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="match_parent"-->
+                    <!--android:background="#555c5b"-->
+                    <!--&gt;-->
+                    <!--<ImageView-->
+                        <!--android:layout_width="wrap_content"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:src="@drawable/layer4"-->
+                        <!--android:padding="16dp"/>-->
+                <!--</FrameLayout>-->
+
+
+
+                <EditText
+                    android:id="@+id/etPassword"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#626562"
+                    android:padding="16dp"
+                    android:hint="Password"
+                    android:textColorHint="#ffffff"
+                    android:textSize="14dp"
+                    android:singleLine="true"
+                    android:inputType="textPassword"
+                    android:textColor="#ffffff"
+
+                    />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/rounded"
+            android:layout_marginRight="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="50dp">
+
+
+
+            <Button
+                android:id="@+id/btLogIn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="LOGIN"
+                android:onClick="go2"
+                android:textColorHint="#ffffff"
+                android:textColor="#ffffff"
+                android:textAlignment="center"
+                android:background="#00000000"
+                android:padding="15dp"
+                android:layout_marginLeft="20dp"/>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <!--<TextView-->
+        <!--android:id="@+id/tt"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="Verify Account ?"-->
+        <!--android:onClick="go4"-->
+        <!--android:textColor="#ffffff"-->
+        <!--android:layout_alignParentBottom="true"-->
+        <!--android:padding="20dp"-->
+        <!--android:gravity="center"-->
+
+        <!--/>-->
+</RelativeLayout>
+

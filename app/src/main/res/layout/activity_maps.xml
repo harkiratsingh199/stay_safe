@@ -1,0 +1,48 @@
+<LinearLayout
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:orientation="vertical">
+
+
+<fragment xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:map="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/map"
+    android:name="com.google.android.gms.maps.SupportMapFragment"
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="8"
+    tools:context="com.example.pchp.stay_safe.MapsActivity"/>
+
+
+<Button
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+      android:layout_weight="1"
+       android:text="Send Sms"
+        android:id="@+id/bt_sms"
+        android:background="@drawable/round_button"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginRight="70dp"
+        android:textAlignment="center"
+        android:padding="14dp"
+        android:textSize="16sp"
+        android:textColor="#ffffff"
+        />
+
+
+
+<TextView android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="0.5"
+    android:text=""
+    android:id="@+id/tvLatLng"
+    android:gravity="center"/>
+
+
+
+</LinearLayout>
+
+
